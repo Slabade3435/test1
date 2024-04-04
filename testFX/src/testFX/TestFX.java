@@ -22,6 +22,7 @@ public class TestFX extends Application{
 		primaryStage.setTitle("Hello World!");
 		
 		button = new Button();
+		//bruh
 		button.setText("Click me");
 		button.setOnAction(e -> System.out.println("what up"));
 		
