@@ -34,7 +34,7 @@ public class TestFX extends Application{
 		Label label = new Label("Egg Sandwich");
 		
 		
-		VBox vbox = new VBox(20);
+		VBox vbox = new VBox(20); ///
 		vbox.setAlignment(Pos.TOP_CENTER);
 		vbox.getChildren().add(createFoodItem("Egg sandwich"));
 		vbox.getChildren().add(createFoodItem("Chicken sandwich"));
